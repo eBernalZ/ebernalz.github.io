@@ -7,5 +7,6 @@ new TypeIt('#htext', {
 .pause(300)
 .break()
 .type("And I'm a programmer")
+.pause(300)
 .break()
 .type("What can I do for you?");

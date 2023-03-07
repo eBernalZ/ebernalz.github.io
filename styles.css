@@ -3,46 +3,255 @@
   src: url("/assets/GraphikThin.otf");
 }
 
-body, html {
-  height: 100%;
-  background-color: #1616DF;
-  color: #ebe6e1;
-}
-
-.container {
-  height: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.text {
-  width: 50%;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body, html {
+    height: 100%;
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
   
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1.5em;
+  }
+  
+  p {
+    font-family: 'Graphik Thin', sans-serif;
+    font-size: 0.7em;
+  }
+  
+  button {
+    background-color: #ebe6e1 ;
+    color: #1c1c1c;
+    border: 2px solid #ebe6e1;
+    border-radius: 16px;
+    padding: 5px;
+    font-size: 0.6em;
+    transition: 0.5s;
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
 }
 
-h1 {
-  font-family: 'Satoshi', sans-serif;
-  font-size: 4em;
-}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  body, html {
+    height: 100%;
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 1.5em;
+  }
+  
+  p {
+    font-family: 'Graphik Thin', sans-serif;
+    font-size: 1em;
+  }
+  
+  button {
+    background-color: #ebe6e1 ;
+    color: #1c1c1c;
+    border: 2px solid #ebe6e1;
+    border-radius: 16px;
+    padding: 5px;
+    font-size: 0.8em;
+    transition: 0.5s;
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
 
-p {
-  font-family: 'Graphik Thin', sans-serif;
-  font-size: 1.5em;
 }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body, html {
+    height: 100%;
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 2.5em;
+  }
+  
+  p {
+    font-family: 'Graphik Thin', sans-serif;
+    font-size: 1.25em;
+  }
+  
+  button {
+    background-color: #ebe6e1 ;
+    color: #1c1c1c;
+    border: 2px solid #ebe6e1;
+    border-radius: 16px;
+    padding: 5px;
+    font-size: 1em;
+    transition: 0.5s;
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
 
-button {
-  background-color: #ebe6e1 ;
-  color: #1c1c1c;
-  border: 2px solid #ebe6e1;
-  border-radius: 16px;
-  padding: 10px;
-  font-size: 1.2em;
-  transition: 0.5s;
-  font-family: 'Satoshi', sans-serif;
 }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body, html {
+    height: 100%;
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 3em;
+  }
+  
+  p {
+    font-family: 'Graphik Thin', sans-serif;
+    font-size: 1.25em;
+  }
+  
+  button {
+    background-color: #ebe6e1 ;
+    color: #1c1c1c;
+    border: 2px solid #ebe6e1;
+    border-radius: 16px;
+    padding: 5px;
+    font-size: 1.2em;
+    transition: 0.5s;
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
 
-button:hover {
-  background-color: #1616DF;
-  color: #ebe6e1;
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  body, html {
+    height: 100%;
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .text {
+    width: 50%;
+  }
+  
+  h1 {
+    font-family: 'Satoshi', sans-serif;
+    font-size: 4em;
+  }
+  
+  p {
+    font-family: 'Graphik Thin', sans-serif;
+    font-size: 1.5em;
+  }
+  
+  button {
+    background-color: #ebe6e1 ;
+    color: #1c1c1c;
+    border: 2px solid #ebe6e1;
+    border-radius: 16px;
+    padding: 10px;
+    font-size: 1.2em;
+    transition: 0.5s;
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #1616DF;
+    color: #ebe6e1;
+  }
 }
